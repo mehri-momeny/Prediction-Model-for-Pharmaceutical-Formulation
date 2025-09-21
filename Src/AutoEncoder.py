@@ -2,7 +2,7 @@ import keras
 from keras import layers
 import pandas as pd
 
-data_path = 'normalize_data(minMax)(5-180).csv'#normalize_data(minMax).csv  #'Data(990712).csv' #Data(990712)(without Powdr specification ).csv
+data_path = 'normalize_data(minMax)(5-180).csv'  #normalize_data(minMax).csv  #'Data(990712).csv' #Data(990712)(without Powdr specification ).csv
 dataframe = pd.read_csv(data_path, encoding='ISO-8859–1')
 
 # This is the size of our encoded representations

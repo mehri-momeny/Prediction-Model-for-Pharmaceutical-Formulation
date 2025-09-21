@@ -5,7 +5,7 @@ from tqdm import tqdm
 import pubchempy as pcp
 
 # Load your CSV file
-df = pd.read_csv("Data\API_List.csv", encoding='ISO-8859-1')
+df = pd.read_csv("../Data/API_List.csv", encoding='ISO-8859-1')
 api_names = df['API'].unique()
 
 # Properties from PubChem

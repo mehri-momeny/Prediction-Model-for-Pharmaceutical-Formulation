@@ -3,7 +3,7 @@ from tqdm import tqdm
 import pandas as pd
 
 # === CONFIGURATION ===
-input_file = "Excipient/excipients.csv"       # Your input Excel file
+input_file = "../Excipient/excipients.csv"  # Your input Excel file
 input_column = "Excipients"           # Column name containing excipient names
 output_file = "Excipient/excipient_info.csv"  # Output Excel file name
 

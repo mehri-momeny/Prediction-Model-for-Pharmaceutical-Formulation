@@ -11,7 +11,7 @@ from time import sleep
 from tqdm import tqdm
 
 # Load your CSV file
-df = pd.read_csv("Data/API_List.csv", encoding='ISO-8859-1')
+df = pd.read_csv("../Data/API_List.csv", encoding='ISO-8859-1')
 api_names = df['API'].unique()
 
 

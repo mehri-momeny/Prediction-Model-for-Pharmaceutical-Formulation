@@ -54,7 +54,7 @@ def baseline_model():
 
 # load dataset
 #Data more 6 formulations)-990709.csv
-data_path = 'normalize_data(minMax)(5-180).csv'#normalize_data(minMax).csv  #'Data(990712).csv' #Data(990712)(without Powdr specification ).csv
+data_path = 'normalize_data(minMax)(5-180).csv'  #normalize_data(minMax).csv  #'Data(990712).csv' #Data(990712)(without Powdr specification ).csv
 # data_path = 'final data(excipient as functional category)(value)reduce SD990712.csv'
 dataframe = pd.read_csv(data_path, encoding='ISO-8859–1')
 

@@ -11,7 +11,7 @@ from matplotlib import pyplot as plt
 
 # dataframe = pd.read_csv('Data/final data(excipient as functional category)(value)reduce SD990709.csv', encoding='ISO-8859–1')
 # dataframe = pd.read_csv('R code/real Data normal.csv', encoding='ISO-8859–1')
-dataframe = pd.read_csv('Data/Data as Ref type(990814).csv', encoding='ISO-8859–1')
+dataframe = pd.read_csv('../Data/Data as Ref type(990814).csv', encoding='ISO-8859–1')
 dataframe['DISINTEGRATION_TIME_CAT']=pd.cut(x = dataframe['DISINTEGRATION_TIME'],
                                              bins = [0,10, 20, 30, 40, 50, 60, 90, 120, 180,450],
                                              labels = [1, 2, 3, 4, 5, 6, 7, 8, 9,10])
