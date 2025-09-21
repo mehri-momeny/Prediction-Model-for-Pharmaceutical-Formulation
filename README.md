@@ -51,7 +51,7 @@ pip install -r requirements.txt
 🚀 Usage
 Download the dataset from the Zenodo link and place it in the data/ directory (or update paths accordingly).
 
-Train/Evaluate models using scripts in master/ to compare regression vs. classification approaches.
+Train/Evaluate models using scripts in src/ to compare regression vs. classification approaches.
 
 📝 Citation
 If you use this repository, please cite:
