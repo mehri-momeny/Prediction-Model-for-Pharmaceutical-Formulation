@@ -1,0 +1,24 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+
+# Machine learning
+scikit-learn
+xgboost
+lightgbm
+
+# Deep learning
+tensorflow
+keras
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Utilities
+jupyter
+notebook
+tqdm
+joblib
